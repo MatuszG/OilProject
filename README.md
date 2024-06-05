@@ -34,7 +34,7 @@
           ![](assets/Code%20Generation.png)
         - ustaw **Linker** -> **General** -> **Additional Library Directories** = `$(CPLEX_STUDIO_DIR2211)\opl\include;%(AdditionalIncludeDirectories)`:
         ![](assets/Linker_general.png)
-        - ustaw **Linker** -> **Input** -> **Additional Dependencies** = `$(CPLEX_STUDIO_DIR2211)\opl\include;%(AdditionalIncludeDirectories)`:
+        - ustaw **Linker** -> **Input** -> **Additional Dependencies** = `opl.lib;iljs.lib;concert.lib;cplex2211.lib;ilocplex.lib;cp.lib;odbc32.lib;odbccp32.lib;wsock32.lib;%(AdditionalDependencies)`:
         ![](assets/Input.png)
 4. Dodaj **oil_project.cpp** do projektu w **Visual Studio 2022**:  
     ![alt text](assets/Project.png)
