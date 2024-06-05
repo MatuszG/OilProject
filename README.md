@@ -2,6 +2,16 @@
 
 ## Konfiguracja w CPLEX Studio
 
+1. Utwórz nowy projekt:  
+![alt text](assets/opl_new_project.png)
+![alt text](assets/new_project_opl.png) 
+![alt text](assets/create_opl_project.png)
+2. Dodaj plik **oil_project.mod** do projektu:  
+![alt text](assets/oil_project.png)
+3. Dodaj konfigurację uruchomieniową przeciągając plik **oil_project.mod** na **Run Configurations**:
+![alt text](assets/create_configuration_opl.png)
+4. Uruchom konfigurację:
+![alt text](assets/run_configuration.png)
 
 ## Konfiguracja w Visual Studio 2022
 1. **Utwórz pusty projekt w Visual Studio 2022**
