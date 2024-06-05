@@ -10,7 +10,7 @@
 ![alt text](assets/oil_project.png)
 3. Dodaj konfigurację uruchomieniową przeciągając plik **oil_project.mod** na **Run Configurations**:
 ![alt text](assets/create_configuration_opl.png)
-4. Uruchom konfigurację:
+4. Uruchom konfigurację:  
 ![alt text](assets/run_configuration.png)
 
 ## Konfiguracja w Visual Studio 2022
