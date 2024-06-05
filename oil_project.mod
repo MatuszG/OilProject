@@ -57,8 +57,6 @@ subject to {
   LBO >= 500;
   LBO <= 1000;
   
-//  PMF <= 10000;
-  
   -0.1*CRA - 0.15*CRB + LN == 0;
   -0.2*CRA - 0.25*CRB + MN == 0;
   -0.2*CRA - 0.18*CRB + HN == 0;
@@ -79,9 +77,7 @@ subject to {
   
   -LO + LOCGO + LOJF + 0.55 * FO == 0;
   -HO + HOCGO + HOJF + 0.16 * FO == 0;
-//  -CO + COJF + 0.22 * CG == 0;
   -CO + COJF + 0.22 * FO == 0;
-//  -R + RJF + 0.056 * RG == 0;
   -R + RLBO + RJF + 0.05 * FO == 0;
   
   -LNPMF - MNPMF - HNPMF - RGPMF - CGPMF + PMF == 0;
