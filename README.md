@@ -1,5 +1,9 @@
 # OilProject
 
+Projekt w ramach przedmiotu Metody i narzędzia informatyczne w optymalizacji problemów biznesowych na podstawie książki:  
+H. Paul Williams, Model Building in Mathematical Programming, 5th Edition  
+Model zbudowany na podstawie rodziału 12.6 i 13.6.  
+
 ## Konfiguracja w CPLEX Studio
 
 1. Utwórz nowy projekt:  
